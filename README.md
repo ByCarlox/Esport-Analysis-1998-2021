@@ -4,7 +4,7 @@ From the originals datasets I create some SQL querys in order to filter the info
 
 [Here's the querys I made](https://console.cloud.google.com/bigquery?sq=341570980120:b81a6622d2f0414491b7b12e184d17ec)
 
-'
+'''{
 --CHECK THE TABLE STRUCTURE
 SELECT *
 FROM `esports-367514.Esports.GeneralEsportData` 
@@ -44,4 +44,4 @@ FROM `esports-367514.Esports.HistoricalEsportData`
 GROUP BY year 
 ORDER BY Year DESC
 
-'
+}'''
