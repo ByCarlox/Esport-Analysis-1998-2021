@@ -43,7 +43,15 @@ SELECT EXTRACT(year from Date) AS Year, SUM(Tournaments) AS Tournaments,SUM(Play
 FROM `esports-367514.Esports.HistoricalEsportData`
 GROUP BY year 
 ORDER BY Year DESC
+````
 
 After export all the tables I uploaded to Tableau Public to do a Dashboard were I can visualice relevant Data about the Dataset
 
-[1998-2021 Esports Analysis Tableau Dashboard](1998-2021 Esports Analysis)
+[1998-2021 Esports Analysis Tableau Dashboard](https://public.tableau.com/app/profile/carlos1863/viz/1998-2021EsportsAnalysis/Dashboard1)
+
+The insights we can get from this datasets are:
+
+1. The game with the highest earnings of all times is Dota 2
+2. Counter Strike Global Offensive is the game with more competitive playes 
+3. The genre with the highest recaudation in all time is the MOBA
+4. 2020 was the year with the highest earnings
